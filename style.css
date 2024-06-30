@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    color: black;
+    font-family: 'Poppins',sans-serif;
+}
+
+h3{
+    color: black;
+    font-size: 42px;
+}
+h1{
+    font-size: 56px;
+}
+p{
+    margin-bottom: 30px;
+    color: rgb(45, 35, 35);
+}
+.highlight{
+    color:tomato;
+}
+.top_banner{
+    padding: 5%;
+    height: 500px;
+    background: url("images/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top_elements{
+    float: left;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_elements img{
+    width: 100%;
+    height: 100%;
+    position: right;
+    align-items: center;
+}
+.btn{
+    font-size: 18px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-image: linear-gradient(90deg,salmon,tomato);
+    border-radius: 5px;
+}
+.top2_banner{
+    padding: 5%;
+    height: 600px;
+    background: url("images/home2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bio{
+    font-size: 28px;
+}
+.top3_banner{
+    padding: 5%;
+    width: 90%;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    
+    
+
+}
+.top3_banner h2{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+
+}
+.imge{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 20px gray;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+
+.imge img{
+    width: 100%;
+    height: 100%;
+
+}
+
+#img1{
+    margin-left: 0;
+}
+
+.top4_banner{
+    padding: 5%;
+    height: 500px;
+
+}
+.t4_elements{
+    text-align: center;
+}
+.t4_elements p{
+    padding-left:20% ;
+    padding-right: 20%;
+}
+/* .t4_elements h3{
+    font-size: 24px;
+    padding-top: 0;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.t4_elements h4{
+    padding-top: 0;
+    margin-top: 0px;
+} */
+
+#lbtn{
+    margin-top: 100px;
+    padding: 15px 80px;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,salmon,tomato);
+}
+
+footer p{
+    text-align: center;
+}
+
+
